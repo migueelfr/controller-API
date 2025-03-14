@@ -1,41 +1,48 @@
-###🚀 Controller-API
+# Controller-API 🚀
 
-Uma API desenvolvida com Spring Boot para gerenciar controladores de forma simples e eficiente! 🔥
+Uma API simples em **Java** com **Spring Boot** para gerenciar controladores de forma eficiente. Oferece operações CRUD (Criar, Ler, Atualizar, Deletar) para controladores.
 
-✨ Funcionalidades
-✅ CRUD completo de controladores
-✅ Endpoints RESTful para fácil integração
-✅ Arquitetura modular e escalável
+## Funcionalidades 🔧
 
-🔧 Tecnologias
-🟡 Java + Spring Boot
-🟠 Maven para gerenciamento de dependências
-🔵 Banco de Dados (configurável)
+- **Criar** novos controladores
+- **Consultar** controladores existentes
+- **Atualizar** informações dos controladores
+- **Deletar** controladores do sistema
 
-⚡ Como Usar
-1️⃣ Clone o repositório
+## Tecnologias 🛠️
 
-bash
-Copiar
-Editar
-git clone https://github.com/migueelfr/controller-API.git
-2️⃣ Acesse o diretório
+- **Java** 11+
+- **Spring Boot**
+- **Maven**
 
-bash
-Copiar
-Editar
-cd controller-API
-3️⃣ Compile e execute
+## Como Rodar 🏃‍♂️
 
-bash
-Copiar
-Editar
-mvn spring-boot:run
-🎯 API rodando em http://localhost:8080
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/migueelfr/controller-API.git
+   ```
+2. Navegue até a pasta do projeto:
+   ```bash
+   cd controller-API
+   ```
+3. Compile o projeto:
+   ```bash
+   mvn clean install
+   ```
+4. Execute a aplicação:
+   ```bash
+   mvn spring-boot:run
+   ```
 
-🌍 Endpoints Principais
-🔹 GET /controladores → Lista todos
-🔹 GET /controladores/{id} → Busca por ID
-🔹 POST /controladores → Cria novo
-🔹 PUT /controladores/{id} → Atualiza
-🔹 DELETE /controladores/{id} → Remove
+A API estará disponível em: [http://localhost:8080](http://localhost:8080)
+
+## Endpoints 📡
+
+- **GET /controladores**: Lista todos os controladores
+- **GET /controladores/{id}**: Detalhes de um controlador específico
+- **POST /controladores**: Adiciona um novo controlador
+- **PUT /controladores/{id}**: Atualiza um controlador
+- **DELETE /controladores/{id}**: Deleta um controlador
+
+
+
