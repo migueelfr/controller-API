@@ -11,7 +11,7 @@ Uma API simples em **Java** com **Spring Boot** para gerenciar controladores de 
 
 ## Tecnologias 🛠️
 
-- **Java** 11+
+- **Java** 17+
 - **Spring Boot**
 - **Maven**
 
